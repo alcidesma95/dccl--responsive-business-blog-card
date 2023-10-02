@@ -1,0 +1,98 @@
+@font-face {
+  font-family: lato;
+  src: url(assets/font/Lato.ttf);
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(assets/font/poppins.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lato;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #F2F5F9;
+  height: 100vh;
+}
+
+
+.card{
+  background-color: white;
+  width: 350px;
+  border-radius: 12px;
+}
+.images_container{
+  position: relative;
+  width: 350px;
+}
+
+.image{
+  width: 350px;
+  border-radius: 12px 12px 0 0;
+}
+
+.border_image{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.card_body{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card_info{
+  padding: 0  16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card_info > h3 {
+  font-family: poppins;
+  color: #111729;
+  font-size: 24px;
+}
+.card_info > p {
+  font-size: 16px;
+  color: #677489;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px 16px 16px 10px;
+}
+
+.avatar{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.info_author > h4{
+  color: #111729;
+  font-size: 16px;
+}
+.info_author > p{
+  color: #677489;
+  font-size: 16px;
+}
+
+.divider{
+  width: 350px;
+  height: 1px;
+  background-color:#F2F5F9;
+}
+
